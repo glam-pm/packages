@@ -6,12 +6,15 @@
  [{:os/name "Mac.*"
    :os/arch "x86_64"
    :artifact/url "https://github.com/borkdude/babashka/releases/download/v{{version}}/babashka-{{version}}-macos-amd64.zip"
+   :artifact/hash "{{sha256:babashka-{{version}}-macos-amd64.zip}}"
    :artifact/executables ["bb"]}
   {:os/name "Linux.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/borkdude/babashka/releases/download/v{{version}}/babashka-{{version}}-linux-amd64.zip"
+   :artifact/hash "{{sha256:babashka-{{version}}-linux-amd64.zip}}"
    :artifact/executables ["bb"]}
   {:os/name "Windows.*"
    :os/arch "amd64"
    :artifact/url "https://github.com/borkdude/babashka/releases/download/v{{version}}/babashka-{{version}}-windows-amd64.zip"
+   :artifact/hash "{{sha256:babashka-{{version}}-windows-amd64.zip}}"
    :artifact/executables ["bb.exe"]}]}
