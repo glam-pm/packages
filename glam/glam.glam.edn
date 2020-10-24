@@ -5,12 +5,12 @@
  :package/artifacts
  [{:os/name "Mac.*"
    :os/arch "x86_64"
-   :artifact/url "https://68-298997735-gh.circle-artifacts.com/0/release/glam-0.0.1-SNAPSHOT-macos-amd64.zip"
+   :artifact/url "https://70-298997735-gh.circle-artifacts.com/0/release/glam-0.0.1-SNAPSHOT-macos-amd64.zip"
    ;; :artifact/hash "sha256:sfEkDVDKf/owDyW+hCj22N5eNgFNYk62fxpvKexwva0="
    :artifact/executables ["glam-bin"]}
   {:os/name "Linux.*"
    :os/arch "amd64"
-   :artifact/url "https://69-298997735-gh.circle-artifacts.com/0/release/glam-0.0.1-SNAPSHOT-linux-amd64.zip"
+   :artifact/url "https://71-298997735-gh.circle-artifacts.com/0/release/glam-0.0.1-SNAPSHOT-linux-amd64.zip"
    ;; :artifact/hash "sha256:sfEkDVDKf/owDyW+hCj22N5eNgFNYk62fxpvKexwva0="
    :artifact/executables ["glam-bin"]}
   #_{:os/name "Windows.*"
