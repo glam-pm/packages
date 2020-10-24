@@ -1,0 +1,20 @@
+{:package/name glam/glam
+ :package/description ""
+ :package/version "0.0.1-SNAPSHOT"
+ :package/license ""
+ :package/artifacts
+ [{:os/name "Mac.*"
+   :os/arch "x86_64"
+   :artifact/url "https://68-298997735-gh.circle-artifacts.com/0/release/glam-0.0.1-SNAPSHOT-macos-amd64.zip"
+   ;; :artifact/hash "sha256:sfEkDVDKf/owDyW+hCj22N5eNgFNYk62fxpvKexwva0="
+   :artifact/executables ["bb"]}
+  {:os/name "Linux.*"
+   :os/arch "amd64"
+   :artifact/url "https://69-298997735-gh.circle-artifacts.com/0/release/glam-0.0.1-SNAPSHOT-linux-amd64.zip"
+   ;; :artifact/hash "sha256:sfEkDVDKf/owDyW+hCj22N5eNgFNYk62fxpvKexwva0="
+   :artifact/executables ["glam-bin"]}
+  #_{:os/name "Windows.*"
+   :os/arch "amd64"
+   :artifact/url "https://github.com/borkdude/babashka/releases/download/v0.2.2/babashka-0.2.2-windows-amd64.zip"
+   :artifact/hash "sha256:AAMks+jCr5JbeU4jHwaGxPHG22jyfvB5lzVEaRTpcHE="
+   :artifact/executables ["bb.exe"]}]}
